@@ -1,3 +1,4 @@
+#project
 #include<stdio.h>
 #include<dos.h>
 #include<ctype.h>
@@ -9,19 +10,19 @@ void bar(int z)
 {
     window(z+1,22,70,25);
     textcolor(10);
-    cprintf("    €  ");
+    cprintf("    √õ  ");
     window(z+1,23,70,25);
-    cprintf("   ﬁ");
+    cprintf("   √û");
     textcolor(9);
-    cprintf("€");
+    cprintf("√õ");
     textcolor(10);
-    cprintf("›  ");
+    cprintf("√ù  ");
     window(z+1,24,70,25);
-    cprintf("  ﬁ");
+    cprintf("  √û");
     textcolor(9);
-    cprintf("€ﬂ€");
+    cprintf("√õ√ü√õ");
     textcolor(10);
-    cprintf("›  ");
+    cprintf("√ù  ");
 }
 const int sz=6;
 int xx[sz],yy[sz];
@@ -137,10 +138,10 @@ void main()
     _setcursortype(_NOCURSOR);
     randomize();
     textcolor(15);
-    cprintf("\n ⁄                                                             ⁄ƒƒƒƒƒƒƒƒƒƒƒƒƒƒø ");
+    cprintf("\n √ö                                                             √ö√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ¬ø ");
     for(int i=0;i<18;i++)
-    cprintf(" ≥                                                             ≥              ≥ ");
-    cprintf(" ¿                                                             ¿ƒƒƒƒƒƒƒƒƒƒƒƒƒƒŸ ");
+    cprintf(" ¬≥                                                             ¬≥              ¬≥ ");
+    cprintf(" √Ä                                                             √Ä√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√ô ");
     window(66,3,78,21);
     textcolor(11);
     cprintf("Press X      ");
@@ -155,7 +156,7 @@ void main()
     cprintf("Press Left,  ");
     cprintf("Right to Move\n");
     textcolor(WHITE);
-    cprintf("ƒƒƒƒƒƒƒƒƒƒƒƒ ");
+    cprintf("√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ ");
     cprintf("Status:      ");
     cprintf("   Stoped    \n");  // cprintf("  Playing.. "); cprintf("   Stoped   ");
     cprintf("Score :      ");
